@@ -1,0 +1,1 @@
+import{d as t,a as r,o as s,q as n}from"./C2YSqjBR.js";import{u as c}from"./Bd_nIasP.js";const i=t({__name:"callback",setup(u){const{$oidcUserManger:a}=r(),o=c();return s(async()=>{try{await o.handleCallback(a)}catch(e){console.error("OIDC callback error",e)}await n("/")}),()=>{}}});export{i as default};
