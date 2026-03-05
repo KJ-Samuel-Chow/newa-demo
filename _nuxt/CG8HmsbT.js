@@ -1,0 +1,1 @@
+import{d as s,o as c,a as l}from"./diM6XS1u.js";const r=s({__name:"silent-callback",setup(n){return c(async()=>{const{$oidcUserManger:e}=l();try{await e.signinSilentCallback(),console.info("[silent-callback] silent callback processed successfully")}catch(a){console.error("[silent-callback] silent callback error:",a)}}),()=>{}}});export{r as default};
